@@ -1,9 +1,15 @@
 # dsa210_last_100_chess_games
 For DSA210 course, i will collect data from chess.com for my previous 100 chess games and prepare my project accordingly.
 
+**Hypothesis**
+
+Null Hyphothesis(H0): There is no significant relationship between the rating difference (my rating minus my opponent's rating) and my likelihood of winning. My win rate remains consistent regardless of the rating gap.
+
+Alternative Hypothesis(H1): There is a significant relationship between the rating difference and my likelihood of winning. As the rating gap increases in my favor, my win rate increases, and as the rating gap decreases (or becomes negative), my win rate decreases.
+
 **Abstarct**
 
-Chess Performance Correlation Analysis
+This project aims to investigate the relationship between various internal and external factors and my chess performance on Chess.com. By analyzing my last 100 games, I will explore potential correlations between game outcomes and factors such as starting color, opponent rating differences, and opponent geographical location. The study will involve data extraction, preprocessing, and statistical analysis using Python. The findings will provide insights into patterns affecting my gameplay, helping optimize my playing strategy and schedule.
 
 **Project Proposal**
 
