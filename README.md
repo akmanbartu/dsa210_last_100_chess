@@ -14,9 +14,13 @@ This project aims to analyze the correlation between various external and intern
 The dataset will be sourced from my Chess.com account and will include my last 100 games. The data points to be collected include:
 
 Opponent's rating
+
 Opponent's country
+
 Game result (win, loss, draw)
+
 Color played (white or black)
+
 Time control of the game
 
 **Analysis Plan**
@@ -24,14 +28,19 @@ Time control of the game
 I will investigate the following potential correlations:
 
 Starting color vs. win rate – Analyzing whether I have a higher win rate as White or Black.
+
 Opponent rating difference vs. game outcome – Examining how my performance is affected when facing higher or lower-rated opponents.
+
 Opponent's country/region vs. performance – Evaluating if my win rate varies based on my opponent’s geographic location.
 
 **Implementation Plan**
 
 Extract relevant game data from Chess.com
+
 Clean and preprocess the dataset for analysis.
+
 Perform statistical correlation analysis using Python
+
 Interpret results and provide insights.
 
 **Expected Outcome**
