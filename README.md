@@ -17,7 +17,7 @@ This project aims to analyze the correlation between various external and intern
 
 **Data Collection**
 
-The dataset will be sourced from my Chess.com account and will include my last 100 games. The data points to be collected include:
+The dataset will be sourced from my Chess.com account and will include my last 100 games. The data will be extracted with API. The data points to be collected include:
 
 Opponent's rating
 
