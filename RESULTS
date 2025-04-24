@@ -1,0 +1,42 @@
+# Chess.com Performance Analysis – Last 100 Games
+
+##Project Summary
+This project analyzes my last 100 games on Chess.com to explore the relationship between factors like rating difference, color, and time control — and how they impact my win rate.
+
+##Player
+**Username:** `samuraibartu`
+
+##Hypothesis
+> I am more likely to win when my rating is higher than my opponent's.
+
+##Methods
+- Data collected via [Chess.com Public API](https://www.chess.com/news/view/published-data-api)
+- Cleaned and transformed using Python and pandas
+- Feature Engineering:
+  - `Rating Diff` (My Rating − Opponent Rating)
+  - `Win` column (1 for win, 0 otherwise)
+  - `Color`, `Time Control`, etc.
+- Visualized using seaborn and matplotlib
+- Hypothesis tested using independent two-sample t-test
+
+##Files Included
+- `last_100_chess_games.json` — Raw data from Chess.com
+- `cleaned_chess_data.csv` — Cleaned and enriched dataset
+- `analysis.py` — Full analysis pipeline
+- `win_rate_by_color.png` — Win rate comparison by color
+- `rating_diff_distribution.png` — Rating difference histogram
+- `win_rate_by_time_control.png` — Performance by time control
+
+##Results
+- ✅ Win rate is **statistically higher** when my rating is greater than opponent's  
+- **P-value:** 0.0166 → significant at 95% confidence
+- Slightly better performance as **Black**
+- Majority of games were **blitz** format with `180+2` control
+
+##Tools Used
+- Python
+- pandas, seaborn, matplotlib
+- scipy.stats for statistical testing
+
+##Conclusion
+The data supports the hypothesis — higher rating gives a statistically significant edge in games. Time control and color also show trends, but need more data for stronger conclusions.
