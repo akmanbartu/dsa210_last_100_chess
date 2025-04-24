@@ -28,7 +28,7 @@ This project analyzes my last 100 games on Chess.com to explore the relationship
 - `win_rate_by_time_control.png` — Performance by time control
 
 ##Results
-- ✅ Win rate is **statistically higher** when my rating is greater than opponent's  
+- Win rate is **statistically higher** when my rating is greater than opponent's  
 - **P-value:** 0.0166 → significant at 95% confidence
 - Slightly better performance as **Black**
 - Majority of games were **blitz** format with `180+2` control
