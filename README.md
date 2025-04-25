@@ -7,7 +7,7 @@ Null Hyphothesis(H0): There is no significant relationship between the rating di
 
 Alternative Hypothesis(H1): There is a significant relationship between the rating difference and my likelihood of winning. As the rating gap increases in my favor, my win rate increases, and as the rating gap decreases (or becomes negative), my win rate decreases.
 
-**Abstarct**
+**Abstract**
 
 This project aims to investigate the relationship between various internal and external factors and my chess performance on Chess.com. By analyzing my last 100 games, I will explore potential correlations between game outcomes and factors such as starting color, opponent rating differences, and opponent geographical location. The study will involve data extraction, preprocessing, and statistical analysis using Python. The findings will provide insights into patterns affecting my gameplay, helping optimize my playing strategy and schedule.
 
