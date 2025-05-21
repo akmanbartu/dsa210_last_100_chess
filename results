@@ -33,10 +33,21 @@ This project analyzes my last 100 games on Chess.com to explore the relationship
 - Slightly better performance as **Black**
 - Majority of games were **blitz** format with `180+2` control
 
+##Machine Learning Model Comparison
+We evaluated three classification models to predict game outcomes based on rating difference and other features:
+
+| Model                | Accuracy |
+|----------------------|----------|
+| Logistic Regression  | 60%      |
+| Decision Tree        | 65%      |
+| K-Nearest Neighbors  | 75%      |
+
+The K-Nearest Neighbors model outperformed the others, suggesting that local patterns in the data are significant predictors of game outcomes.
+
 ##Tools Used
 - Python
 - pandas, seaborn, matplotlib
 - scipy.stats for statistical testing
 
 ##Conclusion
-The data supports the hypothesis — higher rating gives a statistically significant edge in games. Time control and color also show trends, but need more data for stronger conclusions.
+The analysis confirms that rating difference is a significant predictor of game outcomes. The K-Nearest Neighbors model achieved the highest accuracy, indicating that local patterns in player ratings are influential. Future work could explore additional features such as opening strategies or time controls to further improve predictive performance.
